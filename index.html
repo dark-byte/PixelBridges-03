@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="javaSc.js">
+    <title>Binary Blink</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+    <div class="main-container">
+        <div class="container">
+            <div class="top-container">
+            <!-- navbar  -->
+                <nav class="navbar">
+                    <div class="logo">
+                        <div class="content-white"><img src="./logo 2.png" alt="">BBK</div>
+                    </div>
+                    <div class="socialmedia">
+                        <a  href="http://twitter.com" class="icons" target="_blank">
+                            <i class="fa-brands fa-twitter icon"></i>
+                        </a>
+                        <a href="http://telegram.com" class="icons" target="_blank">
+                            <i class="fa-solid fa-paper-plane icon"></i>
+                        </a>
+                    </div>
+                </nav>
+
+                <!-- content  -->
+                <div class="content-box">
+                    <h1 class="content-heading">
+                        Your Phone 
+                    </h1>
+
+                    <div class="yellow-circ">
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="4.00012" cy="4" r="3.5" fill="#151111" stroke="#F1B43D"></circle>
+                        </svg>
+                    </div>
+                    <div class="yellow-line">
+                        <svg width="100" height="2" viewBox="0 0 100 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M100 1L2.26498e-06 1" stroke="url(#paint0_linear_1835_5234)"></path>
+                            <defs>
+                                <linearGradient id="paint0_linear_1835_5234" x1="100" y1="1.5" x2="0" y2="1.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F1B43D" stop-opacity="0"></stop>
+                                    <stop offset="0.518749" stop-color="#F1B43D"></stop>
+                                    <stop offset="1" stop-color="#F1B43D" stop-opacity="0"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="content-heading2">
+                        Number + <span class="text-muted" id="textMuted">Web3</span>
+                    </div>
+    
+                    <p class="content-para">
+                        Binary Blink, Where Your Phone Number Becomes Your Passport to Ethereum Blockchain
+                    </p>
+    
+                    <button onclick="toggleModal()" class="btn">
+                        Join Waitlist <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                        </span>
+    
+                    </button>
+                </div>
+                <div class="green-circ">
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="4" cy="4" r="3.5" fill="#151111" stroke="#18FF2F"></circle>
+                    </svg>
+                </div>
+                <div class="green-line">
+                    <svg width="2" height="151" viewBox="0 0 2 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 0L1.00001 151" stroke="url(#paint0_linear_1835_5231)"></path>
+                        <defs>
+                            <linearGradient id="paint0_linear_1835_5231" x1="1.5" y1="-2.18557e-08" x2="1.50001" y2="151" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#18FF2F" stop-opacity="0"></stop>
+                                <stop offset="0.518749" stop-color="#18FF2F" stop-opacity="0.481251"></stop>
+                                <stop offset="1" stop-color="#18FF2F" stop-opacity="0"></stop>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+
+            </div>
+            <div class="purple-circ">
+                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.00012" cy="4" r="3.5" fill="#151111" stroke="#532DDF"></circle>
+                </svg>
+            </div>
+            <div class="purple-line">
+                <svg width="100" height="2" viewBox="0 0 100 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M100 1L2.26498e-06 1" stroke="url(#paint0_linear_1835_5232)"></path>
+                    <defs>
+                        <linearGradient id="paint0_linear_1835_5232" x1="100" y1="1.5" x2="0" y2="1.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#6D39FF" stop-opacity="0"></stop>
+                            <stop offset="0.518749" stop-color="#6D39FF"></stop>
+                            <stop offset="1" stop-color="#6D39FF" stop-opacity="0"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="red-circ">
+                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4" cy="4" r="3.5" fill="#151111" stroke="#FF4D6A"></circle>
+                </svg>
+            </div>
+            <div class="red-line">
+                <svg width="2" height="151" viewBox="0 0 2 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 0L1.00001 151" stroke="url(#paint0_linear_1835_5230)"></path>
+                    <defs>
+                        <linearGradient id="paint0_linear_1835_5230" x1="1.5" y1="-2.18557e-08" x2="1.50001" y2="151" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FF4D6A" stop-opacity="0"></stop>
+                            <stop offset="0.518749" stop-color="#FF4D6A" stop-opacity="0.481251"></stop>
+                            <stop offset="1" stop-color="#FF4D6A" stop-opacity="0"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+
+            <div class="lower-container">
+                <img src="./edit2.png" alt="" class="image" height="340px";
+                width="705px">
+                <img src="./edit.png" alt="" class="image2" height="340px";
+                width="705px">
+            </div>
+            <div class="footer">
+                <p class="footer-content">
+                    Join our communities.
+                </p>
+                <div class="footer-icon socialmedia">
+                    <a href="http://github.com/" class="icons" target="_blank">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                    </a >
+                    <a href="http://discord.com" class="icons" target="_blank">
+                        <i class="fa-brands fa-discord icon"></i>
+                    </a>
+                    <a  href="http://twitter.com" class="icons" target="_blank">
+                        <i class="fa-brands fa-twitter icon"></i>
+                    </a>
+                    <a href="http://telegram.com" class="icons" target="_blank">
+                        <i class="fa-solid fa-paper-plane icon"></i>
+                    </a>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+        <div class="grid"></div>
+        <div class="color"></div>
+        <div class="noise"></div>
+
+
+    </div>
+
+    <div class="modal-container modal-hide">
+        <div class="modal modal-scale">
+            <button onclick="toggleModal()" class="close"><i class="fa-solid fa-xmark"></i></button>
+            <h2>
+                Dial into Binary Blink 😎
+            </h2>
+            <p>Be Ahead of the Curve! 🚀 Join Our Waitlist and Community to Dive in First at Launch.    </p>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" placeholder="John">
+                    </div>
+                    <div class="col">
+                        <label for="last-name">First name</label>
+                        <input type="text" id="last-name" placeholder="Doe">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-wide">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="johndoe@binaryblink.com">
+                    </div>
+                </div>
+                <button class="btn btn-wide">
+                    Join Waitlist <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg>
+                    </span>
+                </button>
+                <img src="shapes.svg" alt="">
+            </form>
+        </div>
+    </div>
+    
+    <script src="javaSc.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+</body>
+</html>
