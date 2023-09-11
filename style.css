@@ -541,6 +541,7 @@
 .col input{
   padding: 6px 10px 6px 20px;
   border: 1px solid #2c2c2c;
+  color: #acacac;
   background: hsla(0, 0%, 9%, .3);
   margin: 12px 0 20px 0;
   font-size: 16px;
