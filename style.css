@@ -92,6 +92,27 @@
   text-decoration: none;
 }
 
+.icons svg {
+  height: 20px;
+  width: 20px;
+  fill: rgb(255, 77, 106);
+  transition: fill ease 0.5s;
+}
+
+.icons svg:hover {
+  fill: #dfb791;
+}
+
+.close svg{
+  height: 20px;
+  width: 20px;
+  fill: #fff;
+}
+
+.close svg:hover{
+  fill: #c9c9c9;
+}
+
 .content-box{
   margin: auto;
   max-width: 1440px;
@@ -196,7 +217,7 @@
     left: 0;
     top: 0;
     z-index: 1;
-    background-image: url(bg1.svg);
+    background-image: url(Assets/bg1.svg);
     background-position: 50%;
     background-size: contain;
     background-repeat: repeat;
